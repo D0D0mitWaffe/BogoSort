@@ -1,0 +1,15 @@
+E:\C# Prjekte\BogoSort\bin\Debug\net6.0\BogoSort.exe
+E:\C# Prjekte\BogoSort\bin\Debug\net6.0\BogoSort.deps.json
+E:\C# Prjekte\BogoSort\bin\Debug\net6.0\BogoSort.runtimeconfig.json
+E:\C# Prjekte\BogoSort\bin\Debug\net6.0\BogoSort.dll
+E:\C# Prjekte\BogoSort\bin\Debug\net6.0\BogoSort.pdb
+E:\C# Prjekte\BogoSort\obj\Debug\net6.0\BogoSort.csproj.AssemblyReference.cache
+E:\C# Prjekte\BogoSort\obj\Debug\net6.0\BogoSort.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# Prjekte\BogoSort\obj\Debug\net6.0\BogoSort.AssemblyInfoInputs.cache
+E:\C# Prjekte\BogoSort\obj\Debug\net6.0\BogoSort.AssemblyInfo.cs
+E:\C# Prjekte\BogoSort\obj\Debug\net6.0\BogoSort.csproj.CoreCompileInputs.cache
+E:\C# Prjekte\BogoSort\obj\Debug\net6.0\BogoSort.dll
+E:\C# Prjekte\BogoSort\obj\Debug\net6.0\refint\BogoSort.dll
+E:\C# Prjekte\BogoSort\obj\Debug\net6.0\BogoSort.pdb
+E:\C# Prjekte\BogoSort\obj\Debug\net6.0\BogoSort.genruntimeconfig.cache
+E:\C# Prjekte\BogoSort\obj\Debug\net6.0\ref\BogoSort.dll
