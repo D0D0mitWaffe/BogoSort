@@ -1,4 +1,4 @@
-﻿int[] test = new int[] { 2, 6, 7, 1, 3, 23, 6, 7, 8, 4, 45, 30, 55, 100 };
+﻿int[] test = new int[] { 2, 1, 7, 1, 3 };
 long count = 0;
 
 foreach (int j in test) {
@@ -6,10 +6,17 @@ foreach (int j in test) {
 }
 
 System.Console.WriteLine("This is the array unsortiert");
+System.Console.WriteLine(DateTime.Now.ToString());
+DateTime start = new DateTime();
+start = DateTime.Now;
 int[] sortedArr = BogoSort(test);
+DateTime end = new DateTime();
+end = DateTime.Now;
+TimeSpan t = end - start;
 System.Console.WriteLine("This is the array now, sorted");
 System.Console.WriteLine($"Es wurden {count} versuche Benötigt");
 System.Console.WriteLine($"Dabei liegt die Fakultät von {test.Length} bei {recfact(1, test.Length)}");
+System.Console.WriteLine($"Dabei hat das sortieren {t.ToString("mm\\:ss")}");
 foreach (int j in sortedArr) {
     System.Console.WriteLine(j);
 }
@@ -21,6 +28,9 @@ int[] BogoSort(int[] toSort) {
 
     while (!isSorted(toSort)) {
         count++;
+        if (count % 100000 == 0) {
+            System.Console.WriteLine($"Es wurden {count} versuche Benötigt");
+        }
         int a = rnd.Next(toSort.Length);
         int b = rnd.Next(toSort.Length);
 
